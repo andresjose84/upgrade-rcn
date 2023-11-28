@@ -1,6 +1,7 @@
 export const spreading = ( e ) => {
     e.preventDefault();
     const args = [ 0, 1, 2 ];
+    const args2 = args;
     const sum = myFunction( ...args );
     const sum2 = myFunction2( 3, 4, 5 );
     console.log( 'sum ', sum );

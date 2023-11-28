@@ -1,5 +1,5 @@
 import React from 'react'
 
-export const Welcome = ( props ) => {
-    return <h1>Hola, { props.name }</h1>
+export const Welcome = ( { name } ) => {
+    return <h1>Hola, { name }</h1>
 }

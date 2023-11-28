@@ -7,7 +7,7 @@ export const desArray = ( e ) => {
     console.log( 'a', a );
     console.log( 'b', b );
 
-    [ a, b, ...rest ] = arr;
+    [ , , ...rest ] = arr;
 
     console.log( 'rest', rest );
 };
